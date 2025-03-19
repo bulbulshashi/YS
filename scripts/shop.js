@@ -1,6 +1,6 @@
 
 let products = [
-  { image1: "images/products/p1/p1.jpg", image2: "images/products/kc.jpg", image3: "images/products/kc.jpg", image4: "images/products/kc.jpg", name: "Colorful soil pot for plant", price: "219 ", rating: "****", brand: "YS", details: "Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt Astronaut T-shirt" },
+  { image1: "images/products/p1/p1.jpg", image2: "images/products/kc.jpg", image3: "images/products/kc.jpg", image4: "images/products/kc.jpg", name: "Colorful soil pot for plant", price: "219 ", rating: "****", brand: "YS", details: "" },
   { image1: "images/products/p2/p2.jpg", image2: "images/products/kc.jpg", image3: "images/products/kc.jpg", image4: "images/products/kc.jpg", name: "Colorful soil pot for plant", price: "219 ", rating: "****", brand: "YS", details: "" },
   { image1: "images/products/p3/p3.jpg", image2: "images/products/kc.jpg", image3: "images/products/kc.jpg", image4: "images/products/kc.jpg", name: "Colorful soil pot for plant", price: "199 ", rating: "****", brand: "YS", details: "" },
   { image1: "images/products/p4/p4.jpg", image2: "images/products/kc.jpg", image3: "images/products/kc.jpg", image4: "images/products/kc.jpg", name: "Colorful soil pot for plant", price: "214 ", rating: "****", brand: "YS", details: "" },

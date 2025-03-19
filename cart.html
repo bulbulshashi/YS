@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <title>YASHOP/Cart</title>
+</head>
+
+<body>
+
+
+
+
+
+
+  <section id="header">
+    <div id="logo"><a href="index.html"><img src="images/Red and White Bag Online Shop Logo.png" alt=""
+          style="width: 50px;"></a></div>
+    <div id="navbar">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="cart.html" style="color: #ffffff;font-weight: 900;text-decoration:underline;"><i
+          class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="cartsec">
+    <h1>Cart</h1>
+    <!-- <button onclick="addRow();">add</button> -->
+
+    <table id="cart-table">
+      <thead id="big-t-head">
+        <tr>
+          <td>
+            REMOVE
+          </td>
+          <td>PRODUCT</td>
+          <td>
+            DETAILS
+          </td>
+          <!-- <td>
+  COLOR
+  </td>
+  <td>
+    SIZE
+  </td> -->
+          <td>
+            QUANTITY
+          </td>
+          <td>
+            PRICE
+          </td>
+          <td>
+            TOTAL
+          </td>
+        </tr>
+      </thead>
+      <tbody id="big-t-body">
+
+        <!-- <tr>
+  <td><button>X</button></td>
+  <td><img src="images/Black and Cream Minimalist T-Shirt Mockup Instagarm Post.png" alt=""></td>
+  <td>Astonaut T-shirt</td>
+  <td>NA</td>
+  <td>L</td>
+  <td>1</td>
+  <td>1299 BDT</td>
+  <td>1299 BDT</td>
+</tr> -->
+
+      </tbody>
+    </table>
+
+
+
+
+  </section>
+
+  <section id="mini-table-pay">
+
+    <table id="mini-table">
+
+
+      <tr>
+        <td>Total:</td>
+        <td>0 BDT</td>
+      </tr>
+
+      <tr>
+        <td>Coupon:</td>
+        <td>NA</td>
+      </tr>
+      <tr>
+        <td>Delivery Charge:</td>
+        <td>Free</td>
+      </tr>
+      <tr>
+        <td>VAT/TAX:</td>
+        <td>NA</td>
+      </tr>
+      <tr>
+        <td>Net Amount:</td>
+        <td>0 BDT</td>
+      </tr>
+    </table>
+
+    <div id="coupon-but-sec">
+
+      <div id="coupon-sec">
+        <input type="text" placeholder="Apply Coupon">
+        <button>Apply</button>
+      </div>
+      <button id="proceed-payment" onclick="window.location = 'payment.html'">proceed
+        to payment</button>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <section id="footer">
+    <div class="col1">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+      </ol>
+
+    </div>
+    <div class="col1">
+      <ol>
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+      </ol>
+
+    </div>
+    <div class="col1">
+      <ol>
+        <li><a href="">Track Order</a></li>
+        <li><a href="">Shops</a></li>
+        <li><a href="">Sites</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Help</a></li>
+      </ol>
+
+    </div>
+    <div class="col1">
+      <ol>
+        <li><a href="">Android</a></li>
+        <li><a href="">IOS</a></li>
+        <li><a href="">Location</a></li>
+        <li><a href="">Address</a></li>
+        <li><a href="">Donate</a></li>
+      </ol>
+
+    </div>
+
+  </section>
+
+
+
+  <script src="scripts/cart.js"></script>
+</body>
+
+</html>
